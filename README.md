@@ -8,7 +8,9 @@ Unity CharacterControllerを用いた移動/攻撃/防御スクリプトです�
 
 攻撃内容はDogAttack、武器の装備状態はItemChangeを参照しています。
 
-DogController/DogAttackはキャラクター、ItemChangeはCanvas > Panelにアタッチ
+DogController/DogAttackはキャラクター、ItemChangeはCanvas > Panelにアタッチします。
+
+チームでの開発のため、単体では機能しません。
 
 
 ・WASD/矢印キー : 移動(歩き)
