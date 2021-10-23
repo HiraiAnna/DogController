@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 
 //プレイヤー(犬)にアタッチ walk/run speed,gravityは初期設定 5/10/50
-//ジャンプ必要なら付けます！
 
 public class DogController : MonoBehaviour
 {
@@ -18,7 +17,7 @@ public class DogController : MonoBehaviour
     public Vector3 _input; //移動キー入力
     public float _sceneChangeDeley;
 
-    //犬のライフ 仮置き
+    //犬のライフ
     int _life = 5;
     
     //死亡判定用
@@ -54,11 +53,7 @@ public class DogController : MonoBehaviour
         
     }
 
-    //!!!!!!!!!!!!!!!!!!!!!!消す!!!!!!!!!!!!!!!!!!!!!!!!
-    public int Life()
-    {
-        return _life;
-    }
+
 
     public bool IsDead
     {
